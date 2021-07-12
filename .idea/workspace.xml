@@ -14,46 +14,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MOBO.py">
+        <entry file="file://$PROJECT_DIR$/src/MOBO_reg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-840">
-              <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MOBO_reg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="265" column="89" lean-forward="true" selection-start-line="265" selection-start-column="89" selection-end-line="265" selection-end-column="89" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/benchmark_botorch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="20" column="4" selection-start-line="20" selection-end-line="20" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TRIAL.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="-38">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -62,13 +26,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_MOBO_reg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trial_reg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="66">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_functions/vlmop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_functions/oka2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -84,9 +78,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ref_point</find>
       <find>initialize</find>
-      <find>generate_initial_data</find>
       <find>BATCH_SIZE</find>
       <find>feas</find>
       <find>feasible</find>
@@ -111,8 +103,11 @@
       <find>model</find>
       <find>self.ref</find>
       <find>bat</find>
-      <find>N_BATCH</find>
       <find>qExpectedHypervolumeImprovement</find>
+      <find>N_BATCH</find>
+      <find>draw_sobol_samples</find>
+      <find>standa</find>
+      <find>generate_initial_data</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,8 +120,12 @@
         <option value="$PROJECT_DIR$/TRIAL.py" />
         <option value="$PROJECT_DIR$/benchmark_botorch.py" />
         <option value="$PROJECT_DIR$/MOBO.py" />
-        <option value="$PROJECT_DIR$/trial_reg.py" />
         <option value="$PROJECT_DIR$/MOBO_reg.py" />
+        <option value="$PROJECT_DIR$/test_functions/oka2.py" />
+        <option value="$PROJECT_DIR$/test_functions/vlmop.py" />
+        <option value="$PROJECT_DIR$/test_functions/test_MOBO_reg.py" />
+        <option value="$PROJECT_DIR$/trial_reg.py" />
+        <option value="$PROJECT_DIR$/tests/test_MOBO_reg.py" />
       </list>
     </option>
   </component>
@@ -149,6 +148,16 @@
               <item name="Multi-objective-Bayesian-Opt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multi-objective-Bayesian-Opt" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Multi-objective-Bayesian-Opt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-objective-Bayesian-Opt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multi-objective-Bayesian-Opt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multi-objective-Bayesian-Opt" type="462c0819:PsiDirectoryNode" />
+              <item name="test_functions" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -158,6 +167,12 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/trial_reg.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Panos\OneDrive - University College London\Documents\GitHub\Multi-objective-Bayesian-Opt\tests" />
+      <recent name="C:\Users\Panos\OneDrive - University College London\Documents\GitHub\Multi-objective-Bayesian-Opt\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest in test_MOBO_reg.py">
     <configuration name="trial_reg" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Multi-objective-Bayesian-Opt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,6 +208,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_MOBO_reg.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Multi-objective-Bayesian-Opt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_MOBO_reg.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.trial_reg" />
+      <item itemvalue="Python tests.pytest in test_MOBO_reg.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in test_MOBO_reg.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -207,12 +246,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 14h 56m 46s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 00m 10s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 01m 55s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 02m 12s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 15m 11s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 18m 13s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 18m 44s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 19m 44s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 19m 52s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 20m 41s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.5029586" side_tool="true" visible="true" weight="0.09054805" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49704143" visible="true" weight="0.09054805" />
+      <window_info id="Favorites" sideWeight="0.3220974" side_tool="true" visible="true" weight="0.25655282" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67790264" visible="true" weight="0.25655282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -220,8 +290,8 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50039715" side_tool="true" weight="0.39539006" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" visible="true" weight="0.4007092" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4574468" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" visible="true" weight="0.5265958" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -234,24 +304,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/TRIAL.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/benchmark_botorch.py</url>
-          <line>345</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MOBO.py</url>
-          <line>246</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/trial_reg.py</url>
-          <line>48</line>
+          <line>31</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_MOBO_reg.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -374,22 +434,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MOBO_reg.py">
+    <entry file="file://$PROJECT_DIR$/test_functions/oka2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="265" column="89" lean-forward="true" selection-start-line="265" selection-start-column="89" selection-end-line="265" selection-end-column="89" />
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_functions/vlmop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trial_reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MOBO_reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trial_reg.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/trial/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="80">
+          <caret line="627" selection-start-line="627" selection-end-line="627" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_MOBO_reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
