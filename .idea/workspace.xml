@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MOBO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="59" column="16" lean-forward="true" selection-end-line="250" selection-end-column="28" />
+            <state relative-caret-position="-840">
+              <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -25,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MOBO_reg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="130">
+              <caret line="265" column="89" lean-forward="true" selection-start-line="265" selection-start-column="89" selection-end-line="265" selection-end-column="89" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trial_reg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="124">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -84,7 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>self.ref</find>
       <find>ref_point</find>
       <find>initialize</find>
       <find>generate_initial_data</find>
@@ -104,10 +103,16 @@
       <find>INITI</find>
       <find>problem</find>
       <find>problem.</find>
-      <find>qExpectedHypervolumeImprovement</find>
       <find>prob</find>
       <find>ref_po</find>
       <find>.bounds</find>
+      <find>reformulation</find>
+      <find>minim</find>
+      <find>model</find>
+      <find>self.ref</find>
+      <find>bat</find>
+      <find>N_BATCH</find>
+      <find>qExpectedHypervolumeImprovement</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -204,9 +209,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.5014006" side_tool="true" visible="true" weight="0.09054805" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.09054805" />
+      <window_info id="Favorites" sideWeight="0.5029586" side_tool="true" visible="true" weight="0.09054805" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49704143" visible="true" weight="0.09054805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -215,7 +221,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" visible="true" weight="0.36702126" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" visible="true" weight="0.4007092" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -244,13 +250,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/trial_reg.py</url>
-          <line>38</line>
+          <line>48</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/trial_reg.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -277,16 +278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1136">
           <caret line="121" column="47" lean-forward="true" selection-start-line="121" selection-start-column="47" selection-end-line="121" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MOBO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="59" column="16" lean-forward="true" selection-end-line="250" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -366,10 +357,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trial_reg.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/trial/Lib/site-packages/botorch/models/gp_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="-573">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -378,8 +376,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MOBO_reg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="130">
+          <caret line="265" column="89" lean-forward="true" selection-start-line="265" selection-start-column="89" selection-end-line="265" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trial_reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

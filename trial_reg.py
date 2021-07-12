@@ -22,18 +22,28 @@ tkwargs = {
 from botorch.test_functions.multi_objective import BraninCurrin
 
 
-problem = BraninCurrin(negate=True).to(**tkwargs)
+# problem = BraninCurrin(negate=True).to(**tkwargs)
 
 
 def problem(x):
 
+    transl = 1/ np.sqrt(2)
+    part1 = (x[0] - transl)**2 + (x[1] - transl)**2
+    part2 = (x[0] + transl)**2 + (x[1] + transl)**2
+    f1 = 1 - np.exp(-part1)
+    f2 = 1 - np.exp(-part2)
+    return [f1, f2]
 
-    return [x[0]**2, np.sin(0.1*x[1])]
+def oka2( x ):
 
+    f1 = x[0]
+    f2 = 1 - 1/(4*np.pi**2) * (x[0]+np.pi)**2 +\
+           (abs(x[1] - 5*np.cos(x[0]) ))**(1/3.)\
+         + (abs( x[2]- 5*np.sin(x[0]) ))**(1/3.)
+    return [f1, f2]
 
-
-bounds  = np.array([[0., 0.],[1.,1.]])
-MOBO_TRY = MOBO(problem, bounds)
+bounds  = np.array([[-np.pi, -5.,-5.],[np.pi,5.,5.]])
+MOBO_TRY = MOBO(oka2, bounds,minimize=True, N_iteration=40)
 hvs_qehvi_all = MOBO_TRY.perform_MOBO()
 
 print(2)

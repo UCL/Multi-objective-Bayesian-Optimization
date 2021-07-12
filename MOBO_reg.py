@@ -37,7 +37,12 @@ from time import sleep
 
 class reformulation:
 
-    def __init__(self, problem, bounds, output_numpy=True):
+    def __init__(self, problem, bounds, minimize, output_numpy=True):
+        self. minimize =minimize
+        if self.minimize:
+            self.factor = -1.
+        else:
+            self.factor = 1.
         self.output_numpy = output_numpy
         self.bounds = torch.from_numpy(bounds).type(torch.FloatTensor)
         self.dim     = bounds.shape[1]
@@ -53,7 +58,6 @@ class reformulation:
         x_torch = x_torch_norm * (ub-lb) + lb
         x       = x_torch.detach().numpy().reshape(-1, self.dim_x)
 
-        f_store = torch.empty(1,3,0)#torch.stack([])
 
         for i in range(x.shape[0]):
             # for j in range(self.dim_y):
@@ -63,9 +67,9 @@ class reformulation:
                 f = torch.from_numpy(np.array(self.problem(x[i,:]))).type(torch.FloatTensor)
 
             if i ==0:
-                f_store = torch.stack([f])
+                f_store = torch.stack([self.factor*f])
             else:
-                f_store =  torch.vstack([f_store,f.reshape(1,-1)])
+                f_store =  torch.vstack([f_store,self.factor*f.reshape(1,-1)])
         return f_store
 
 
@@ -76,9 +80,9 @@ class reformulation:
 
 class MOBO:
 
-    def __init__(self, problem, bounds, BATCH_SIZE=3):
-        reformulated_problem = reformulation(problem,bounds)
-
+    def __init__(self, problem, bounds, BATCH_SIZE=3,N_iteration=25, minimize=False):
+        reformulated_problem = reformulation(problem,bounds, minimize)
+        self.N_BATCH = N_iteration
         self.problem = reformulated_problem
 
         self.tkwargs = {
@@ -88,7 +92,7 @@ class MOBO:
         self.SMOKE_TEST = os.environ.get("SMOKE_TEST")
 
         self.BATCH_SIZE = BATCH_SIZE
-        self.NUM_RESTARTS = 20 if not self.SMOKE_TEST else 2
+        self.NUM_RESTARTS = 30 if not self.SMOKE_TEST else 2
         self.RAW_SAMPLES = 1024 if not self.SMOKE_TEST else 4
         self.standard_bounds = torch.zeros(2, self.problem.dim, **self.tkwargs)
         self.standard_bounds[1] = 1
@@ -103,6 +107,7 @@ class MOBO:
             0)
         train_obj = problem.evaluate(train_x)
         # negative values imply feasibility in botorch
+
         self.ref_point = train_obj.min(0).values#problem.ref_point#problem.ref_point#feas_train_obj.max(0).values#
 
         return train_x, train_obj
@@ -161,7 +166,7 @@ class MOBO:
         warnings.filterwarnings('ignore', category=RuntimeWarning)
 
         self.N_TRIALS = 1 if not self.SMOKE_TEST else 2
-        self.N_BATCH = 25 if not self.SMOKE_TEST else 5
+
         self.MC_SAMPLES = 128 if not self.SMOKE_TEST else 16
         problem = self.problem
 
@@ -257,11 +262,12 @@ class MOBO:
                 #     print(".", end="")
                 # the exact output you're looking for:
                 sys.stdout.write('\r')
-
-                sys.stdout.write("trial: " + str(trial) + "/" + str(self.N_TRIALS) + ": [%-20s] %d%%" % (
-                '=' * iteration, iteration / self.N_BATCH * 100))
+                sys.stdout.write("trial: " + str(trial) + "/" + str(self.N_TRIALS) +
+                                 ": [{:{}}] {:.1f}%".format("=" * iteration, self.N_BATCH, (100 / (self.N_BATCH) * iteration)))
+                # sys.stdout.write("trial: " + str(trial) + "/" + str(self.N_TRIALS) + ": [%-",(self.N_BATCH),"s] %d%%" % (
+                # '=' * iteration, iteration / self.N_BATCH * 100))
                 sys.stdout.flush()
-                sleep(0.25)
+
             self.pareto_y = pareto_y
             self.pareto_x = pareto_x
 
