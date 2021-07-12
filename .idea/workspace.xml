@@ -25,14 +25,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_MOBO_reg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="400">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="40">
+                <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -126,6 +138,7 @@
         <option value="$PROJECT_DIR$/test_functions/test_MOBO_reg.py" />
         <option value="$PROJECT_DIR$/trial_reg.py" />
         <option value="$PROJECT_DIR$/tests/test_MOBO_reg.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -147,16 +160,6 @@
             <path>
               <item name="Multi-objective-Bayesian-Opt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multi-objective-Bayesian-Opt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multi-objective-Bayesian-Opt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multi-objective-Bayesian-Opt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multi-objective-Bayesian-Opt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multi-objective-Bayesian-Opt" type="462c0819:PsiDirectoryNode" />
-              <item name="test_functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,12 +250,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 14h 56m 46s.xml">
-      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 00m 10s.xml">
-      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 01m 55s.xml">
       <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
     </history-entry>
@@ -277,12 +274,19 @@
     <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 20m 41s.xml">
       <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 21m 25s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 21m 28s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.3220974" side_tool="true" visible="true" weight="0.25655282" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67790264" visible="true" weight="0.25655282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67790264" visible="true" weight="0.25655282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -291,7 +295,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4574468" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" visible="true" weight="0.5265958" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" visible="true" weight="0.5265958" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -307,11 +311,6 @@
           <url>file://$PROJECT_DIR$/trial_reg.py</url>
           <line>31</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_MOBO_reg.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -484,11 +483,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_MOBO_reg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="400">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="40">
+            <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
