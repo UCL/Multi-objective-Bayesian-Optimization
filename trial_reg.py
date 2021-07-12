@@ -9,12 +9,12 @@ random.seed(0)
 torch.manual_seed(0)
 
 from src.MOBO_reg import MOBO
-from test_functions.oka2 import problem, bounds
+from test_functions.vlmop2 import problem, bounds
 
 
 
 bounds  = bounds()#np.array([[-np.pi, -5.,-5.],[np.pi,5.,5.]])
-MOBO_TRY = MOBO(problem, bounds,minimize=True, N_iteration=40)
+MOBO_TRY = MOBO(problem, bounds,minimize=True, N_iteration=25)
 hvs_qehvi_all = MOBO_TRY.perform_MOBO()
 
 print(2)

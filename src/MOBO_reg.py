@@ -36,7 +36,7 @@ from time import sleep
 
 
 class reformulation:
-
+    # This class aims to transform problems from numpy to torch and normalize inputs
     def __init__(self, problem, bounds, minimize, output_numpy=True):
         self. minimize =minimize
         if self.minimize:
@@ -54,13 +54,13 @@ class reformulation:
         #
         ub     = self.bounds[1,:]
         lb     = self.bounds[0,:]
-
+        #here normalize
         x_torch = x_torch_norm * (ub-lb) + lb
         x       = x_torch.detach().numpy().reshape(-1, self.dim_x)
 
 
         for i in range(x.shape[0]):
-            # for j in range(self.dim_y):
+
             if self.output_numpy == False:
                 f = (self.problem(x_torch[i, :])).type(torch.FloatTensor)
             else:
@@ -79,7 +79,11 @@ class reformulation:
 
 
 class MOBO:
-
+    # This builds the MO
+    # The user can input the problem bounds in numpy format.
+    # BATCH_SIZE is integer (q) for the batch of the qEHVI
+    # N_iteration is the number of iteration that are alg perform
+    # If the optimization is a minimization let minimize = True
     def __init__(self, problem, bounds, BATCH_SIZE=3,N_iteration=25, minimize=False):
         reformulated_problem = reformulation(problem,bounds, minimize)
         self.N_BATCH = N_iteration

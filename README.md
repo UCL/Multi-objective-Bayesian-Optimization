@@ -21,7 +21,11 @@ Example of usage:
     MOBO_TRY = MOBO(problem, bounds,minimize=True, N_iteration=25)
     hvs_qehvi_all = MOBO_TRY.perform_MOBO()
     
-    
+
+![alt text](https://github.com/panos108/Multi-objective-Bayesian-Opt/vlmp2.png?raw=true)
+
+
+
 Requirements:
 
 Python >= 3.6
@@ -33,3 +37,4 @@ gpytorch >= 1.5
 Botorch 
 
 scipy
+
