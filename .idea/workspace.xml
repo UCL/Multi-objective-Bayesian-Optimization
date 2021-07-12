@@ -25,14 +25,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_MOBO_reg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="400">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="40">
+                <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -126,6 +138,7 @@
         <option value="$PROJECT_DIR$/test_functions/test_MOBO_reg.py" />
         <option value="$PROJECT_DIR$/trial_reg.py" />
         <option value="$PROJECT_DIR$/tests/test_MOBO_reg.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -134,6 +147,9 @@
     <option name="y" value="-9" />
     <option name="width" value="1296" />
     <option name="height" value="696" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -147,16 +163,6 @@
             <path>
               <item name="Multi-objective-Bayesian-Opt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multi-objective-Bayesian-Opt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multi-objective-Bayesian-Opt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multi-objective-Bayesian-Opt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multi-objective-Bayesian-Opt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multi-objective-Bayesian-Opt" type="462c0819:PsiDirectoryNode" />
-              <item name="test_functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,12 +253,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 14h 56m 46s.xml">
-      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 00m 10s.xml">
-      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 01m 55s.xml">
       <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
     </history-entry>
@@ -277,24 +277,30 @@
     <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 20m 41s.xml">
       <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 21m 25s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_MOBO_reg_py - 2021.07.12 at 15h 21m 28s.xml">
+      <configuration name="pytest in test_MOBO_reg.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.3220974" side_tool="true" visible="true" weight="0.25655282" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67790264" visible="true" weight="0.25655282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68085104" visible="true" weight="0.25655282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50039715" side_tool="true" weight="0.39539006" />
+      <window_info id="Favorites" order="2" sideWeight="0.3220974" side_tool="true" weight="0.25655282" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4574468" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" visible="true" weight="0.5265958" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.5265958" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.39539006" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,11 +314,6 @@
           <line>31</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_MOBO_reg.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -324,16 +325,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="247" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/example.py" />
     <entry file="file://$USER_HOME$/Anaconda3/envs/trial/Lib/site-packages/botorch/acquisition/multi_objective/monte_carlo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1136">
@@ -397,26 +389,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/benchmark_botorch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="20" column="4" selection-start-line="20" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TRIAL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark_botorch.py" />
+    <entry file="file://$PROJECT_DIR$/TRIAL.py" />
     <entry file="file://$USER_HOME$/Anaconda3/envs/trial/Lib/site-packages/botorch/models/gp_regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-573">
@@ -424,16 +398,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MOBO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840">
-          <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBO.py" />
     <entry file="file://$PROJECT_DIR$/test_functions/oka2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -484,11 +449,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_MOBO_reg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="400">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="40">
+            <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
