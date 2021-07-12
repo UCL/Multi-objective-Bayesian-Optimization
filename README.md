@@ -22,7 +22,7 @@ Example of usage:
     hvs_qehvi_all = MOBO_TRY.perform_MOBO()
     
 
-![alt text](https://github.com/panos108/Multi-objective-Bayesian-Opt/vlmp2.png?raw=true)
+![Screenshot](vlmp2.png)
 
 
 
